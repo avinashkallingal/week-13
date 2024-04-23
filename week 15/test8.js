@@ -13,6 +13,7 @@ class BinarySerchTree{
         return this.root==null
     }
     insert(value){
+        let a;
         const newNode=new Node(value)
         if(this.isEmpty()){
             this.root=newNode
